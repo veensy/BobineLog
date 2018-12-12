@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table {
+    border-spacing: 5px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
